@@ -9,10 +9,7 @@ let userAnswers = [];
 // Initialize app
 document.addEventListener('DOMContentLoaded', function() {
     checkAuth();
-    if (!currentUser) {
-        window.location.href = 'auth.html';
-        return;
-    }
+    // Removed forced login redirect to allow viewing without login
     loadPage();
 });
 
@@ -134,12 +131,10 @@ function loadCreateQuiz() {
     }
 }
 
+// Allow creating quiz without login for demo purposes
 function saveQuiz(e) {
     e.preventDefault();
-    if (!currentUser) {
-        alert('Please login to create a quiz');
-        return;
-    }
+    // Removed login check to allow creating quiz without login
 
     const formData = new FormData(e.target);
     const title = formData.get('title');
@@ -162,7 +157,7 @@ function saveQuiz(e) {
         title,
         description,
         questions,
-        creator: currentUser.email
+        creator: currentUser ? currentUser.email : 'Anonymous'
     };
 
     quizzes.push(quiz);
