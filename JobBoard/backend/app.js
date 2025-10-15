@@ -12,9 +12,21 @@ const userRoutes = require('./routes/users');
 
 const app = express();
 
+// CORS configuration
+const corsOptions = {
+  origin: [
+    'https://jobboard56.netlify.app', // Production frontend
+    'http://localhost:3000', // Local development
+    'http://localhost:5173' // Vite default port
+  ],
+  credentials: true,
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization']
+};
+
 // Middleware
 app.use(helmet());
-app.use(cors());
+app.use(cors(corsOptions));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
