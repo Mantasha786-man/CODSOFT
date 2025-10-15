@@ -21,6 +21,11 @@ app.use(express.urlencoded({ extended: true }));
 // Serve static files (for uploaded resumes)
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 
+// Root route for Render health check
+app.get("/", (req, res) => {
+  res.send("Backend is running successfully 🚀");
+});
+
 // Routes
 app.use('/api/v1/auth', authRoutes);
 app.use('/api/v1/jobs', jobRoutes);
