@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Quiz Maker - Create Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Online Quiz Maker</h1>
+        <nav id="nav-menu">
+            <a href="index.html">Home</a>
+            <a href="quiz-list.html">Quizzes</a>
+            <a href="create-quiz.html">Create Quiz</a>
+            <a href="auth.html">Login/Register</a>
+        </nav>
+    </header>
+    <main>
+        <form id="quiz-form">
+            <h3>Create New Quiz</h3>
+            <label for="title">Quiz Title:</label>
+            <input type="text" id="title" name="title" required>
+            <label for="description">Description:</label>
+            <textarea id="description" name="description" rows="3"></textarea>
+            <h4>Questions</h4>
+            <div id="questions-container">
+                <!-- Questions will be added here -->
+            </div>
+            <button type="button" id="add-question">Add Question</button>
+            <button type="submit">Save Quiz</button>
+        </form>
+    </main>
+  
+    <script src="script.js"></script>
+</body>
+</html>
