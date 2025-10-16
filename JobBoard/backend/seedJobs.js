@@ -201,13 +201,18 @@ const seedJobs = async () => {
         passwordHash: passwordHash,
         role: 'employer',
         company: {
-          name: 'CodSoft',
+          name: 'codsoft.in',
           description: 'Leading technology company',
           website: 'https://codsoft.in'
         }
       });
       await demoEmployer.save();
       console.log('Authorized employer created');
+    } else {
+      // Update the company name if it exists
+      demoEmployer.company.name = 'codsoft.in';
+      await demoEmployer.save();
+      console.log('Authorized employer company name updated');
     }
 
     // Check if jobs already exist
