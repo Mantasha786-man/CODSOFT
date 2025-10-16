@@ -37,6 +37,12 @@ Backend:
 <img width="1338" height="579" alt="Image" src="https://github.com/user-attachments/assets/d012ce72-bfc6-4acb-9bbb-47a18e4e199d" />
 <img width="1328" height="631" alt="Image" src="https://github.com/user-attachments/assets/8473e0ec-1338-476b-8217-5597f137dfd5" />
 
-## 🌐 Live Demo (Optional)
+**Online Quiz Maker Project Languages and Frameworks**
+- HTML: Markup language for structuring the web pages.
+- CSS: Styling language for designing the appearance, including responsive design and animations.
+- JavaScript (Vanilla): Client-side scripting for interactivity, quiz logic, local storage for data persistence, and DOM manipulation.
+
+
+## 🌐 Live Demo 
 If GitHub Pages is enabled:
-👉 [View Live Site]([https://mantasha786-man.github.io/CODSOFT/](https://jobboard56.netlify.app/)
+👉 [View Live Site]([https://mantasha786-man.github.io/CODSOFT/])(https://jobboard56.netlify.app/)
