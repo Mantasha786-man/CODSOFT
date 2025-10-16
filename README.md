@@ -33,6 +33,9 @@ Backend:
 
 **Employer Dashboard**
 
+<img width="1920" height="1042" alt="Image" src="https://github.com/user-attachments/assets/597d5ca4-4a95-45f3-85c0-39a14fc2fcda" />
+<img width="1338" height="579" alt="Image" src="https://github.com/user-attachments/assets/d012ce72-bfc6-4acb-9bbb-47a18e4e199d" />
+<img width="1328" height="631" alt="Image" src="https://github.com/user-attachments/assets/8473e0ec-1338-476b-8217-5597f137dfd5" />
 
 ## 🌐 Live Demo (Optional)
 If GitHub Pages is enabled:
