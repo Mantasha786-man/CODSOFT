@@ -25,3 +25,6 @@ Backend:
 **Candidate with Dashboard**
 
 **Employer Dashboard**
+## 🌐 Live Demo (Optional)
+If GitHub Pages is enabled:
+👉 [View Live Site]([https://mantasha786-man.github.io/CODSOFT/](https://jobboard56.netlify.app/)
