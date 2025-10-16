@@ -42,6 +42,12 @@ Backend:
 - CSS: Styling language for designing the appearance, including responsive design and animations.
 - JavaScript (Vanilla): Client-side scripting for interactivity, quiz logic, local storage for data persistence, and DOM manipulation.
 
+<img width="542" height="669" alt="Image" src="https://github.com/user-attachments/assets/cbaf2aa9-78c4-4efe-890e-efe636d31564" />
+<img width="1648" height="540" alt="Image" src="https://github.com/user-attachments/assets/cc04c271-085d-4e87-9da6-80cd62eafa61" />
+<img width="1465" height="826" alt="Image" src="https://github.com/user-attachments/assets/2ad627bf-e41c-4353-88ce-1d29e1344555" />
+<img width="1920" height="1174" alt="Image" src="https://github.com/user-attachments/assets/14434d36-95c9-423c-a84a-c89325298e4a" />
+<img width="1418" height="710" alt="Image" src="https://github.com/user-attachments/assets/52bc9773-066f-4454-aa39-47a1bc4987a3" />
+<img width="1920" height="1761" alt="Image" src="https://github.com/user-attachments/assets/5c5e415a-3ffc-40dc-8439-2fdf3d397ddc" />
 
 ## 🌐 Live Demo 
 If GitHub Pages is enabled:
